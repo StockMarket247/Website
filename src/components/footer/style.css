@@ -1,0 +1,148 @@
+.footer-main {
+    background-color: #1b1e31;
+    width: 100%;
+}
+
+.footer {
+    border-bottom: 1px solid #32364f;
+    padding: 20px 20px;
+}
+
+.footer-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-area {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 22px 29px 29px 29px;
+    margin-top: 8px;
+}
+
+.news-letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.news-letter-input {
+    width: 100%;
+    height: 56px;
+    border: 0px;
+    padding: 0px;
+    padding: 0px 20px;
+    border-bottom: 4px solid #fe5924;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.news-letter-button {
+    width: 60px;
+    height: 60px;
+    background-color: #fe5924;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.li-contact {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 1rem;
+}
+
+.no-focus-highlight {
+    outline: none;
+    /* Removes the default focus highlight */
+}
+
+.links-area {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 22px 29px 29px 29px;
+    margin-top: 0px;
+}
+
+.linkers {
+    display: flex;
+    gap: 5rem;
+}
+
+.linkers-link {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.spacing {
+    margin-top: .4rem;
+}
+
+.widget-area {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #24283c;
+    border-radius: 5px;
+    padding: 22px 29px 29px 29px;
+    margin-top: 8px;
+}
+
+.assistance-bar {
+    display: block;
+    background: #1b1e31;
+    border-radius: 5px;
+    padding: 22px 20px 22px 105px;
+}
+
+.chat {
+    /* font-size: 17px; */
+    /* line-height: 28px; */
+    color: #fff;
+    font-weight: 600;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.chat-button {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.footer-sub {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.li-support {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+
+.chat-button:hover .chatIndicate {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+}
+
+.chatIndicate {
+    transform: rotate(45deg);
+}
