@@ -3,6 +3,42 @@
     width: 100%;
 }
 
+@media (max-width: 1287px) {
+    .footer-in {
+        flex-wrap: wrap;
+    }
+
+    .contact-area {
+        width: 100%;
+    }
+
+    .linkers-link {
+        width: 100%;
+    }
+
+    .widget-area {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1287px) {
+    .footer-in {
+        flex-wrap: wrap;
+    }
+
+    .contact-area {
+        width: 33.3%;
+    }
+
+    .linkers-link {
+        width: 33.3%;
+    }
+
+    .widget-area {
+        width: 33.3%;
+    }
+}
+
 .footer {
     border-bottom: 1px solid #32364f;
     padding: 20px 20px;
@@ -16,7 +52,6 @@
 }
 
 .contact-area {
-    width: 33.3%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -63,7 +98,6 @@
 }
 
 .links-area {
-    width: 33.3%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -87,7 +121,6 @@
 }
 
 .widget-area {
-    width: 33.3%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -98,15 +131,56 @@
 }
 
 .assistance-bar {
+    display: flex;
+    background: #1b1e31;
+    border-radius: 5px;
+    padding: 20px 8px;
+}
+
+.assistant {
+    position: relative;
     display: block;
     background: #1b1e31;
     border-radius: 5px;
-    padding: 22px 20px 22px 105px;
+    padding: 22px 20px 22px 20px;
+}
+
+.assistane-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.assistance-badge {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #fe5924;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../../public//icon-28.png);
+    border-radius: 50%;
+    top: 20px;
+    right: 10px;
+}
+
+.assistane-image {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
 }
 
 .chat {
     /* font-size: 17px; */
     /* line-height: 28px; */
+    width: 60%;
     color: #fff;
     font-weight: 600;
     /* display: flex;
@@ -117,6 +191,7 @@
     display: flex;
     align-items: center;
     gap: .4rem;
+    color: #6e6e6e;
 }
 
 .footer-sub {
@@ -137,12 +212,12 @@
     gap: 1rem;
 }
 
-
 .chat-button:hover .chatIndicate {
     transform: rotate(0deg);
-    transition: transform 1s ease;
+    transition: transform .7s ease-in-out;
 }
 
 .chatIndicate {
     transform: rotate(45deg);
+    transition: transform .7s ease-in-out;
 }

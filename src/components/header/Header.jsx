@@ -20,17 +20,16 @@ const Header = () => {
                         <img height='42px' width='158' src={'/logo.png'} className="App-logo" alt="logo" />
                     </div>
 
+                </div>
+
+                <div className='search-clicker'>
                     <div className='refitem highlight pointer'>
                         <IconButton>
                             <MenuIcon />
                         </IconButton>
                     </div>
-
-                </div>
-
-                <div className='search-clicker'>
                     <SearchIcon className='pointer' />
-                    <div class="vertical-hr" />
+                    <div className="vertical-hr" />
                     <button className='open-ac-button pointer buttonhighlight'>
                         Open an A/c <TransitEnterexitIcon sx={{ transform: 'rotate(-90deg)' }} />
                     </button>
@@ -63,7 +62,7 @@ const Header = () => {
 
                 <div className='search-clicker'>
                     <SearchIcon className='pointer' />
-                    <div class="vertical-hr" />
+                    <div className="vertical-hr" />
                     <button className='open-ac-button pointer buttonhighlight'>
                         Open an A/c <TransitEnterexitIcon sx={{ transform: 'rotate(-90deg)' }} />
                     </button>

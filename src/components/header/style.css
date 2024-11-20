@@ -75,18 +75,20 @@
     }
 
     .mobile-header {
-        padding: 22px 50px;
+        padding: 22px 0px;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: #fff;
-        gap:3rem;
+        gap:1rem;
+        flex-wrap: wrap;
     }
 
     .search-clicker {
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 1rem;
         /* background-color: blue; */
     }
 }
@@ -110,7 +112,7 @@
 }
 
 .highlight:hover {
-    color: rgba(255, 0, 0, 0.568);
+    color: #fe5924;
 }
 
 .buttonhighlight:hover {
