@@ -1,5 +1,7 @@
+const { initiateLogin } = require('./login');
+
 async function initiateDeposit() {
-    return true;
+    return await initiateLogin();;
 }
 
 module.exports = { initiateDeposit };

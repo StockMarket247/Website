@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './style.css';
 import SendIcon from '@mui/icons-material/Send';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -7,85 +6,149 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const Footer = () => {
 
     return (
-        <div className='footer-main'>
-            <div className='footer'>
-                <div className='footer-in'>
-                    
-                    <div className='contact-area'>
-                        <h1>Our Community</h1>
-                        <p>Here you'll find regular market updates, expert tips & stories.</p>
-                        <form className='news-letter'>
-                            <input type='email' placeholder='Email address...' className='news-letter-input no-focus-highlight' required />
-                            <button className='news-letter-button pointer'>
-                                <SendIcon sx={{ transform: 'rotate(-45deg)', color: '#fff' }} />
-                            </button>
-                        </form >
-                        <h5>Follow us</h5>
-                        <ul className='li-contact'>
-                            <li><i class="fa-brands fa-facebook" /></li>
-                            <li><i class="fa-brands fa-instagram"></i></li>
-                            <li><i class="fa-brands fa-square-pinterest" /></li>
-                            <li><i class="fa-brands fa-square-twitter" /></li>
-                        </ul>
-                    </div>
+        <footer class="main-footer">
+            <div class="widget-section">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div id="bullion_our_community-2" class="footer-widget widget_bullion_our_community">
+                                <div class="contact-widget">
+                                    <div class="widget-title">
+                                        <h3>Our Community</h3>
+                                    </div>
+                                    <div class="widget-content">
+                                        <p>Here you'll find regular market updates, expert tips &amp; stories.</p>
+                                        <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-99" method="post"
+                                            data-id="99" data-name="">
+                                            <div class="mc4wp-form-fields">
+                                                <div class="form-group">
+                                                    <input type="email" name="EMAIL" placeholder="Email address..."
+                                                        required />
+                                                    <button type="submit">
+                                                        <img src="/icon-27.png" alt="Image" /></button>
+                                                </div>
+                                            </div>
+                                            <label style={{display: 'none !important'}}>Leave this field empty if
+                                                you're human: <input type="text" name="_mc4wp_honeypot" value=""
+                                                    tabindex="-1" autocomplete="off" /></label><input type="hidden"
+                                                        name="_mc4wp_timestamp" value="1732275463" /><input type="hidden"
+                                                            name="_mc4wp_form_id" value="99" /><input type="hidden"
+                                                                name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+                                            <div class="mc4wp-response"></div>
+                                        </form>
+                                        <h3>Follow us</h3>
+                                        <ul class="social-links clearfix">
 
-                    <div className='links-area'>
-                        <h1>Useful Links</h1>
-                        <div className='linkers'>
-                            <ul className='linkers-link'>
-                                <li className='pointer spacing highlight'>About Us</li>
-                                <li className='pointer spacing highlight'>Meet Our team</li>
-                                <li className='pointer spacing highlight'>Our Accounts</li>
-                                <li className='pointer spacing highlight'>Platform</li>
-                            </ul>
-                            <ul className='linkers-link'>
-                                <li className='pointer spacing highlight'>Education</li>
-                                <li className='pointer spacing highlight'>History</li>
-                                <li className='pointer spacing highlight'>Markets</li>
-                                <li className='pointer spacing highlight'>Faq's</li>
-                                <li className='pointer spacing highlight'>Contact</li>
-                            </ul>
+
+                                            <li><a target="_blank" href="https://www.facebook.com"><i
+                                                class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a target="_blank" href="https://www.instagram.com"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a target="_blank" href="https://www.pinterest.com"><i
+                                                class="fa-brands fa-pinterest-square"></i></a></li>
+                                            <li><a target="_blank" href="https://www.twitter.com"><i
+                                                class="fa-brands fa-twitter-square"></i></a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-
-                    <div className='widget-area'>
-                        <h1>Need assistance?</h1>
-                        <p>Live chat with our service team for information & assistance.</p>
-                        <div className='assistance-bar'>
-                            <div className='assistant'>
-                                <div className='assistane-img'>
-                                    <div className='assistance-badge' />
-                                    <img className='assistant-image' src='/assistance-1.jpg' />
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div id="nav_menu-2" class="footer-widget widget_nav_menu">
+                                <div class="widget-title">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <div class="menu-useful-links-container">
+                                    <ul id="menu-useful-links" class="menu">
+                                        <li id="menu-item-90"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/company/">About Us</a></li>
+                                        <li id="menu-item-94"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/education/">Education</a>
+                                        </li>
+                                        <li id="menu-item-91"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/team/">Meet Our Team</a>
+                                        </li>
+                                        <li id="menu-item-95"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/history/">History</a></li>
+                                        <li id="menu-item-97"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/our-accounts/">Our
+                                                Accounts</a></li>
+                                        <li id="menu-item-96"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/markets/">Markets</a></li>
+                                        <li id="menu-item-98"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/platform/">Platform</a>
+                                        </li>
+                                        <li id="menu-item-92"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/faqs/">Faq’s</a></li>
+                                        <li id="menu-item-102"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/3-columns/">3 Columns</a>
+                                        </li>
+                                        <li id="menu-item-103"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/details-page/">Details
+                                                Page</a></li>
+                                        <li id="menu-item-104"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/list-view-01/">List View
+                                                01</a></li>
+                                        <li id="menu-item-93"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93">
+                                            <a href="https://jan.coderdemo.com/newwp/bullion/contact/">Contact</a></li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div className='chat'>
-                                <h4 style={{ marginBottom: '5px' }}>Live Chat With</h4>
-                                <span className='chat-button highlight pointer' >
-                                    Expert <ArrowForwardIcon className='chatIndicate highlight' />
-                                </span>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div id="bullion_need_assistance-2" class="footer-widget widget_bullion_need_assistance">
+                                <div class="assistance-widget">
+                                    <div class="widget-content">
+                                        <h3>Need assistance?</h3>
+                                        <p>Live chat with our service team for information &amp; assistance.</p>
+                                        <div class="assistance-box">
+                                            <figure class="assistance-thumb">
+                                                <img src="/assistance-1.jpg" alt="Awesome Image" />
+                                            </figure>
+                                            <h5>Live Chat With</h5>
+                                            <div class="link-box">
+                                                <a href="https://jan.coderdemo.com/newwp/bullion/team/"><span>Expert</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-            <div className='footer-sub'>
-
-                <div className='footer-inner'>
-                    <div>© 2023 Bullion. All Rights Reserved.</div>
-                    <div>
-                        <ul className='li-support'>
-                            <li><i class="fa-brands fa-cc-visa" /></li>
-                            <li><i class="fa-brands fa-cc-mastercard" /></li>
-                            <li><i class="fa-brands fa-cc-paypal" /></li>
-                            <li><i class="fa-brands fa-usps" /></li>
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="bottom-inner">
+                        <div class="copyright">
+                            <p>&copy; <span>2023 <a href="#">Bullion</a>.</span> All Rights Reserved.</p>
+                        </div>
+                        <ul class="footer-card clearfix">
+                            <li><a href="#"><i class="flaticon-symbols"></i></a></li>
+                            <li><a href="#"><i class="flaticon-tool"></i></a></li>
+                            <li><a href="#"><i class="flaticon-money"></i></a></li>
+                            <li><a href="#"><i class="flaticon-symbol"></i></a></li>
+                            <li><a href="#"><i class="flaticon-symbols-1"></i></a></li>
                         </ul>
                     </div>
                 </div>
-
-
             </div>
-        </div >
+        </footer>
     );
 };
 
